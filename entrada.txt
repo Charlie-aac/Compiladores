@@ -1,0 +1,2 @@
+ent main (sin) inicio devolver 0; fin
+

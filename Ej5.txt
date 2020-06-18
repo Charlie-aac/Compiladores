@@ -1,0 +1,17 @@
+while( x[i+2] > x[i-1]) {
+if(y < 3) y =1;
+else y=0;
+}
+
+L2: t0 = i+2
+    t1 = x[t0]
+    t2 = i-1
+    t3 = x[t2]
+    if t1 > t3 goto L0
+    goto L1
+L0: if y < 3 goto L3
+    goto L4
+L3: y = 1
+    goto L5
+L4: y = 0
+L5: goto L2

@@ -1,0 +1,7 @@
+S -> T S'
+S'-> + T S' | Epsilon
+T -> F T'
+T'-> F T' | Epsilon
+F -> (F T + F T S')F' | aF'
+F'-> TFTS'F'* | Epsilon
+---------------------------

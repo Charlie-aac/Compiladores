@@ -1,0 +1,4 @@
+S -> S'
+S'-> E
+E -> while E do E' | id := E' | id
+E'-> E | Epsilon
